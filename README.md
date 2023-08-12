@@ -18,7 +18,9 @@
   - 저장 시점(When it was last saved)<br />
 <br />
 <Br />
-![image](https://github.com/LodeAngle/Intoroduction/assets/141135651/cdce8193-3182-4f94-83e4-dc398f42d369)
+![]([https://i.esdrop.com/d/ZklKfna5T3.jpg](https://github.com/LodeAngle/Intoroduction/assets/141135651/cdce8193-3182-4f94-83e4-dc398f42d369)
+
+![image]()
 
 ## 2.1. clone 이란?
 
