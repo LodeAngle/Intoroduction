@@ -16,7 +16,7 @@
   - 저장 위치(Where it is located)<br />
   - 파일 형식(The file type)<br />
   - 저장 시점(When it was last saved)<br />
-  ![]([https://images.velog.io/images/tataki26/post/982aae42-d943-4a2c-a9bc-7f97ae123ec0/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png](https://images.velog.io/images/tataki26/post/982aae42-d943-4a2c-a9bc-7f97ae123ec0/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png))
+  ![](https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png)
 <br />
 <Br />
 
