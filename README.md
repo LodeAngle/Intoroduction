@@ -10,12 +10,12 @@
   <br />
 
 ## 1.1 버전(version)이란?
-원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전
-메타데이터(metadata, 데이터를 설명해 주는 데이터) 
-  파일 작성자(The author of the file)
-  저장 위치(Where it is located)
-  파일 형식(The file type)
-  저장 시점(When it was last saved)
+원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전<br />
+메타데이터(metadata, 데이터를 설명해 주는 데이터) <br />
+  - 파일 작성자(The author of the file)<br />
+  - 저장 위치(Where it is located)<br />
+  - 파일 형식(The file type)<br />
+  - 저장 시점(When it was last saved)<br />
 <br />
 <Br />
 
