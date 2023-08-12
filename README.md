@@ -17,6 +17,8 @@
   - 파일 형식(The file type)<br />
   - 저장 시점(When it was last saved)<br />
   ![](https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png "버전 관리란? (출처: hanbit.co.kr)")
+
+버전 관리란? (출처: hanbit.co.kr)
 <br />
 <Br />
 
