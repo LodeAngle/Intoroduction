@@ -1,4 +1,4 @@
-## GItHub란?
+#### Introduction to GitHub 
 
 ---
 
