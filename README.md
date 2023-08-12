@@ -16,9 +16,9 @@
   - 저장 위치(Where it is located)<br />
   - 파일 형식(The file type)<br />
   - 저장 시점(When it was last saved)<br />
+  ![](https://images.velog.io/images/tataki26/post/982aae42-d943-4a2c-a9bc-7f97ae123ec0/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png)
 <br />
 <Br />
-![]([https://i.esdrop.com/d/ZklKfna5T3.jpg](https://github.com/LodeAngle/Intoroduction/assets/141135651/cdce8193-3182-4f94-83e4-dc398f42d369)
 
 ![image]()
 
