@@ -1,4 +1,4 @@
-# Intoroduction
+## GItHub란?
 
 ---
 
