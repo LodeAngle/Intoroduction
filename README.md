@@ -18,7 +18,7 @@
   - 저장 시점(When it was last saved)<br />
 
 <p align="center">
-	<img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" alt="kingdom" width="50%" height="50%"/>
+	<img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" alt="kingdom" width="700%" height="70%"/>
 </p>
 <p align="center">  
   <버전 관리란? (출처: hanbit.co.kr)>
