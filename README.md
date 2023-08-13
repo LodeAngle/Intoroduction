@@ -30,7 +30,7 @@
   - 변경 사항 되돌리기 <br />  
 
 <p align="center">
-<img src="https://blog.kakaocdn.net/dn/8Fh1Y/btqzjg2OQx6/2ge5VZ8AV3O8H7niW0YW8K/img.png" width="50" height="50" alt="카카톡 예시">
+<img src="https://blog.kakaocdn.net/dn/8Fh1Y/btqzjg2OQx6/2ge5VZ8AV3O8H7niW0YW8K/img.png" width="100" height="100" alt="카카톡 예시">
 <br />
 카카오톡 버전 히스토리 (출처:https://tip-blog.tistory.com)
 <br /> 
