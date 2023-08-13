@@ -1,4 +1,4 @@
-![image](https://github.com/LodeAngle/Intoroduction/assets/141135651/5faf7028-15bb-4a99-b209-de79ab350bc6)# Introduction to Git&GitHub 
+# Introduction to Git&GitHub 
 
 ***
 
@@ -36,7 +36,7 @@
 <br /> 
 <br />
   
-## 1.2 Git과 GitHub란? <br />
+## 1.2 Git과 GitHub란?
 
 1. Git과 GitHub란?
     - Git(깃)은 버전 관리 시스템이고, GitHub(깃허브)는 Git으로 관리하는 프로젝트를 업로드/다운로드 할 수 있는 사이트 <br />
