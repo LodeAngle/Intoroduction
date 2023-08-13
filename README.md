@@ -17,20 +17,16 @@
 <br />
 버전 관리란? (출처: hanbit.co.kr)
 </p>
-  
-3. 협업 프로젝트에서는 버전 관리가 특히 중요!  <br />  
-4. 버전 관리란?  <br />  
-  - 변경 사항 관리 → 변경 사항 기록/추적 <br />  
-  - 동시 파일 개발 → 다른 버전 파일 결합<br />  
-  - 특전 버전 식별<br />  
-  - 변경 사항 되돌리기 <br />  
-
+3. 협업 프로젝트에서는 버전 관리가 특히 중요!
+4. 버전 관리란?
+  - 변경 사항 관리 → 변경 사항 기록/추적 
+  - 동시 파일 개발 → 다른 버전 파일 결합  
+  - 특전 버전 식별
+  - 변경 사항 되돌리기 
 <p align="center">
 <img src="https://blog.kakaocdn.net/dn/8Fh1Y/btqzjg2OQx6/2ge5VZ8AV3O8H7niW0YW8K/img.png" width="400" height="300" alt="카카톡 예시">
 <br />
-카카오톡 버전 히스토리 (출처:https://tip-blog.tistory.com)
-<br /> 
-<br />
+카카오톡 버전 히스토리 (출처:https://tip-blog.tistory.com)  
 
 ## 1.2 Git과 GitHub란?
 1. Git과 GitHub란?<br />
