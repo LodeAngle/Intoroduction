@@ -1,4 +1,4 @@
-# Introduction to Git&GitHub 
+![image](https://github.com/LodeAngle/Intoroduction/assets/141135651/5faf7028-15bb-4a99-b209-de79ab350bc6)# Introduction to Git&GitHub 
 
 ***
 
@@ -35,6 +35,17 @@
 카카오톡 버전 히스토리 (출처:https://tip-blog.tistory.com)
 <br /> 
 <br />
+## 1.2 Git과 GitHub란? <br />
+1. Git과 GitHub란?
+ - Git(깃)은 버전 관리 시스템이고, GitHub(깃허브)는 Git으로 관리하는 프로젝트를 업로드/다운로드 할 수 있는 사이트
+2. Git은 
+- 일반적으로 사용되는 버전 관리 프로그램
+- 컴퓨터 프로그래밍 및 데이터 프로젝트
+- 오픈 소스
+3. Git은 GitHub가 아니지만 일반적으로 Git은 GitHub와 함께 사용 됨.
+4. Git 호스팅 사이트: GitHub.com
+
+
 <Br />
 
 
