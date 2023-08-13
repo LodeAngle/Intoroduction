@@ -57,7 +57,6 @@
   - 버전을 되돌리기 어려움<br />  
   - 협업이 어려움<br />  
 
-
 <p align="center">
 <img src="https://i0.wp.com/leechoong.com/wp-content/uploads/2017/12/101-6.png?w=618" width="500" height="300" alt="버전관리 중요성 설명용">
 <br />
