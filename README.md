@@ -66,7 +66,7 @@
 
 
 # 2. Git 시작하기 
-## 2.1 Git 설치하기: [URL] (https://git-scm.com)
+## 2.1 Git 설치하기: [URL](https://git-scm.com)
 
 
 
