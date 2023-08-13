@@ -17,7 +17,7 @@
   - 파일 형식(The file type)<br />
   - 저장 시점(When it was last saved)<br /> 
 <p align="center" alt="버전관리 그림">
-<img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" width="70%" height="70%"/> 
+<img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" width="70%" height="70%" alt="버전관리란?"> 
 <br />
 버전 관리란? (출처: hanbit.co.kr)
 </p>
