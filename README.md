@@ -68,10 +68,10 @@
 # 2. Git 시작하기 
 ## 2.1 Git 설치하기
 - Git 설치 주소[Link](https://git-scm.com) </br>
-- Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38) </br>
+- Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38)  <br />  
 
 ## 2.2 Git 초기설정
-- "이름"과 "이메일"설정 [Link](https://articles09.tistory.com/48) </br>
+- "이름"과 "이메일"설정 [Link](https://articles09.tistory.com/48)  <br />  
 
 # 3. Git 처리구조
 1. Git은 4개의 주요 공간으로 구성되어 있음
@@ -79,16 +79,17 @@
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbwH6Ln%2Fbtq3z4NgrB1%2F6DfZ5X5s3doQjxRo3kHeN1%2Fimg.png" width="400" height="400" alt="Git 처리 구조">
 <br />
 Git의 처리 구조 (출처:https://jforj.tistory.com/119)
-</p>
-<\br>
-2. 용어 설명 <\br>
-- Working Directory: 개발자의 현재 시점으로 소스코드를 수정하며 개발하는 공간을 의미<\br>
-- Staging Area: Working Directory에서 작업한 파일을 Local Repository에 전달하기 위해 파일들을 분류하는 공간<\br>
-- Local Repository: 로컬 저장소이며 작업한 파일들을 저장해두는 내부 저장소 (.git 폴더)<\br>
-- Remote Repository: 원격 저장소이며 인터넷으로 연결되어 있어 있는 외부 저장소 (웹 페이지에서 보이는 공간)<\br>
-- Branch: Remote Repository의 현재 상태를 복사하여 master 브랜치와 별개의 작업을 진행할 수 있는 공간 (보통 브랜치를 생성하여 개발을 진행하고 개발을 완료하면 master 브랜치에 병합하여 개발 완료된 소스코드를 합침)<\br>
-- Head: 현재 작업중인 브랜치의 최근 커밋된 위치<\br>
-- Index: Staging Area를 의미<\br>
+</p> 
+<br />  
+ <br />  
+2. 용어 설명  <br />  
+- Working Directory: 개발자의 현재 시점으로 소스코드를 수정하며 개발하는 공간을 의미 <br />  
+- Staging Area: Working Directory에서 작업한 파일을 Local Repository에 전달하기 위해 파일들을 분류하는 공간 <br />  
+- Local Repository: 로컬 저장소이며 작업한 파일들을 저장해두는 내부 저장소 (.git 폴더) <br />  
+- Remote Repository: 원격 저장소이며 인터넷으로 연결되어 있어 있는 외부 저장소 (웹 페이지에서 보이는 공간) <br />  
+- Branch: Remote Repository의 현재 상태를 복사하여 master 브랜치와 별개의 작업을 진행할 수 있는 공간 (보통 브랜치를 생성하여 개발을 진행하고 개발을 완료하면 master 브랜치에 병합하여 개발 완료된 소스코드를 합침) <br />  
+- Head: 현재 작업중인 브랜치의 최근 커밋된 위치 <br />  
+- Index: Staging Area를 의미 <br />  
 
 
 ## 2.1. clone 이란?
