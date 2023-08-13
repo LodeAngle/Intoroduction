@@ -69,8 +69,10 @@
 ## 2.1 Git 설치하기
 - Git 설치 주소[Link](https://git-scm.com) </br>
 - Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38) </br>
+
 ## 2.2 Git 초기설정
 - "이름"과 "이메일"설정 [Link](https://articles09.tistory.com/48) </br>
+
 # 3. Git 처리구조
 - Git은 4개의 주요 공간으로 구성되어 있음
 <p align="center">
@@ -78,6 +80,7 @@
 <br />
 Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 </p>
+
 
 ## 2.1. clone 이란?
 
