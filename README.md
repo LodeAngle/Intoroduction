@@ -6,12 +6,12 @@
 - 코드 리뷰
 
 ## 1.1 버전(version)이란?
-1. 원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전<br />
-2. 메타데이터(metadata, 데이터를 설명해 주는 데이터) <br />
-  - 파일 작성자(The author of the file)<br />
-  - 저장 위치(Where it is located)<br />
-  - 파일 형식(The file type)<br />
-  - 저장 시점(When it was last saved)<br /> 
+1. 원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전
+2. 메타데이터(metadata, 데이터를 설명해 주는 데이터) 
+  - 파일 작성자(The author of the file)
+  - 저장 위치(Where it is located)
+  - 파일 형식(The file type)
+  - 저장 시점(When it was last saved) 
 <p align="center">
 <img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" width="70%" height="70%" alt="버전관리란?"> 
 <br />
