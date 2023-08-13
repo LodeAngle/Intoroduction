@@ -29,59 +29,54 @@
 카카오톡 버전 히스토리 (출처:https://tip-blog.tistory.com)  
 
 ## 1.2 Git과 GitHub란?
-1. Git과 GitHub란?<br />
-  - Git(깃)은 **버전 관리 시스템**이고, GitHub(깃허브)는 Git으로 관리하는 **프로젝트를 업로드 및 다운로드 할 수 있는 사이트** <br />
-3. Git은  <br />
-  - 일반적으로 사용되는 버전 관리 프로그램 <br />
-  - 컴퓨터 프로그래밍 및 데이터 프로젝트 <br />
-  - 오픈 소스 <br />
-3. Git은 GitHub가 아니지만 일반적으로 Git은 GitHub와 함께 사용 됨 <br />
-4. Git 호스팅 사이트: GitHub.com <br />
+1. Git과 GitHub란?
+  - Git(깃)은 **버전 관리 시스템**이고, GitHub(깃허브)는 Git으로 관리하는 **프로젝트를 업로드 및 다운로드 할 수 있는 사이트**
+3. Git은
+  - 일반적으로 사용되는 버전 관리 프로그램
+  - 컴퓨터 프로그래밍 및 데이터 프로젝트
+  - 오픈 소스
+3. Git은 GitHub가 아니지만 일반적으로 Git은 GitHub와 함께 사용 됨
+4. Git 호스팅 사이트: GitHub.com
 <Br />
 
 ## 1.3 Git의 장점   
-1. GitHub에 소스 코드를 올려 두면 시간, 공간의 제약 없이 협업할 수 있음<br />  
-  - 다른 사람 컴퓨터와 동기화 가능<br />  
-2. 프로젝트를 공개 저장소로 만들면 전 세계 개발자와 협업할 수 있음<br />  
-3. 공개 저장소에 저장(오픈 소스)해 두면 파일을 잃어버리지 않음<br />  
-4. 깃 없는 세상?<br />  
-  - 변경 내역 확인이 어려움<br />  
-  - 버전을 되돌리기 어려움<br />  
-  - 협업이 어려움<br />  
+1. GitHub에 소스 코드를 올려 두면 시간, 공간의 제약 없이 협업할 수 있음
+  - 다른 사람 컴퓨터와 동기화 가능
+2. 프로젝트를 공개 저장소로 만들면 전 세계 개발자와 협업할 수 있음
+3. 공개 저장소에 저장(오픈 소스)해 두면 파일을 잃어버리지 않음
+4. 깃 없는 세상?
+  - 변경 내역 확인이 어려움
+  - 버전을 되돌리기 어려움
+  - 협업이 어려움
 
 <p align="center">
 <img src="https://i0.wp.com/leechoong.com/wp-content/uploads/2017/12/101-6.png?w=618" width="300" height="150" alt="버전관리 중요성 설명용">
 <br />
 버전 관리의 중요성 (출처:http://leechoong.com/posts/2017/git_vcs/)
-<br /> 
-<br />
-
 
 # 2. Git 시작하기 
 ## 2.1 Git 설치하기
-- Git 설치 주소[Link](https://git-scm.com) </br>
-- Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38)  <br />  
+- Git 설치 주소[Link](https://git-scm.com) 
+- Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38)   
 
 ## 2.2 Git 초기설정
-- "이름"과 "이메일"설정 [Link](https://articles09.tistory.com/48)  <br />  
+- "이름"과 "이메일"설정 [Link](https://articles09.tistory.com/48)  
 
 # 3. Git 처리구조
 1. Git은 4개의 주요 공간으로 구성되어 있음
 <p align="center">
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbwH6Ln%2Fbtq3z4NgrB1%2F6DfZ5X5s3doQjxRo3kHeN1%2Fimg.png"  width="600" height="350" alt="Git 처리 구조">
 <br />
-Git의 처리 구조 (출처:https://jforj.tistory.com/119) 
-<br />  
-<br />  
+Git의 처리 구조 (출처:https://jforj.tistory.com/119)  
 
-2. 용어 설명(수정 전)  <br />  
-- Working Directory: 개발자의 현재 시점으로 소스코드를 수정하며 개발하는 공간을 의미 <br />  
-- Staging Area: Working Directory에서 작업한 파일을 Local Repository에 전달하기 위해 파일들을 분류하는 공간 <br />  
-- Local Repository: 로컬 저장소이며 작업한 파일들을 저장해두는 내부 저장소 (.git 폴더) <br />  
-- Remote Repository: 원격 저장소이며 인터넷으로 연결되어 있어 있는 외부 저장소 (웹 페이지에서 보이는 공간) <br />  
-- Branch: Remote Repository의 현재 상태를 복사하여 master 브랜치와 별개의 작업을 진행할 수 있는 공간 (보통 브랜치를 생성하여 개발을 진행하고 개발을 완료하면 master 브랜치에 병합하여 개발 완료된 소스코드를 합침) <br />  
-- Head: 현재 작업중인 브랜치의 최근 커밋된 위치 <br />  
-- Index: Staging Area를 의미 <br />  
+2. 용어 설명(수정 전) 
+- Working Directory: 개발자의 현재 시점으로 소스코드를 수정하며 개발하는 공간을 의미
+- Staging Area: Working Directory에서 작업한 파일을 Local Repository에 전달하기 위해 파일들을 분류하는 공간 
+- Local Repository: 로컬 저장소이며 작업한 파일들을 저장해두는 내부 저장소 (.git 폴더)
+- Remote Repository: 원격 저장소이며 인터넷으로 연결되어 있어 있는 외부 저장소 (웹 페이지에서 보이는 공간)
+- Branch: Remote Repository의 현재 상태를 복사하여 master 브랜치와 별개의 작업을 진행할 수 있는 공간 (보통 브랜치를 생성하여 개발을 진행하고 개발을 완료하면 master 브랜치에 병합하여 개발 완료된 소스코드를 합침)
+- Head: 현재 작업중인 브랜치의 최근 커밋된 위치
+- Index: Staging Area를 의미
 
 # 3. GitHub 시작하기
 ## 3.1 GitHub 가입하기
@@ -98,7 +93,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - Git은 코딩? Sourcetree 사용하면 GUI로 Git을 사용 가능
     - 즉, 명령어 → 버튼/그래프/메뉴
     - 소스트리는 명령어 없이 깃 사용가능하도록 개발 된 클라이언트 프로그램
-    -  다만, 깃의 고급 기능을 사용하기 위해서는 명령어 기반 학습이 필요 함
+    - 다만, 깃의 고급 기능을 사용하기 위해서는 명령어 기반 학습이 필요 함
     - 우리는 Sourcetree 사용!
 
 
