@@ -76,12 +76,12 @@
 # 3. Git 처리구조
 1. Git은 4개의 주요 공간으로 구성되어 있음
 <p align="center">
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbwH6Ln%2Fbtq3z4NgrB1%2F6DfZ5X5s3doQjxRo3kHeN1%2Fimg.png" width="400" height="400" alt="Git 처리 구조">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbwH6Ln%2Fbtq3z4NgrB1%2F6DfZ5X5s3doQjxRo3kHeN1%2Fimg.png" width="600" height="400" alt="Git 처리 구조">
 <br />
-Git의 처리 구조 (출처:https://jforj.tistory.com/119)
-</p> 
+Git의 처리 구조 (출처:https://jforj.tistory.com/119) 
 <br />  
- <br />  
+<br />  
+
 2. 용어 설명  <br />  
 - Working Directory: 개발자의 현재 시점으로 소스코드를 수정하며 개발하는 공간을 의미 <br />  
 - Staging Area: Working Directory에서 작업한 파일을 Local Repository에 전달하기 위해 파일들을 분류하는 공간 <br />  
