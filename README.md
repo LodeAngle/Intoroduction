@@ -15,7 +15,7 @@
 <p align="center">
 <img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" width="70%" height="70%" alt="버전관리란?"> 
 <br />
-버전 관리란? (출처: hanbit.co.kr)  
+버전 관리란? (출처:hanbit.co.kr)  
   
 3. 협업 프로젝트에서는 버전 관리가 특히 중요!
 4. 버전 관리란?
@@ -56,7 +56,7 @@
 
 # 2. Git 시작하기 
 ## 2.1 Git 설치하기
-- Git 설치 주소[Link](https://git-scm.com) 
+- Git 설치 주소 [Link](https://git-scm.com) 
 - Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38)   
 
 ## 2.2 Git 초기설정
@@ -82,10 +82,11 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 3.1 GitHub 가입하기
 - GitHub 가입하기 [Link](https://goddaehee.tistory.com/218)
 - 학생인증 [Link](https://goddaehee.tistory.com/219)
-## 3.2 Git-GitHub 연동하기
+## 3.2 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
 - GitHub는 원격에서 Git 저장소를 호스팅해주시는 서비스
+- 로컬 컴퓨터에 있는 소스를 1) 백업 2) 협업 3) 공유하기 위해서는 github 사용이 필수
+- 저장소 만들기부터 Push하기까지 [Link] (https://leeporter.tistory.com/41)
 - 
-
 
 # 4. 소스트리 시작하기
 ## 4.1 소스트리 설치하기
