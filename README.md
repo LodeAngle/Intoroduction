@@ -85,7 +85,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 3.2 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
 - GitHub는 원격에서 Git 저장소를 호스팅해주시는 서비스
 - 로컬 컴퓨터에 있는 소스를 1) 백업 2) 협업 3) 공유하기 위해서는 github 사용이 필수
-- 저장소 만들기부터 Push하기까지 [Link] (https://leeporter.tistory.com/41)
+- 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
 - 
 
 # 4. 소스트리 시작하기
