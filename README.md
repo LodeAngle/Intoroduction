@@ -68,7 +68,8 @@
 # 2. Git 시작하기 
 ## 2.1 Git 설치하기
 - Git 설치 주소[Link](https://git-scm.com) </br>
-- 설치방법 참고자료 Download "나중에 OneDrive에 업로드"
+- Git 설치부터 설치 확인하기까지 참고 [Link](https://allhpy35.tistory.com/38) </br>
+
 
 
 
