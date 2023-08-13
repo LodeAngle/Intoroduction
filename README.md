@@ -10,8 +10,8 @@
   <br />
 
 ## 1.1 버전(version)이란?
-원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전<br />
-메타데이터(metadata, 데이터를 설명해 주는 데이터) <br />
+1. 원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전<br />
+2. 메타데이터(metadata, 데이터를 설명해 주는 데이터) <br />
   - 파일 작성자(The author of the file)<br />
   - 저장 위치(Where it is located)<br />
   - 파일 형식(The file type)<br />
@@ -22,7 +22,13 @@
 </p>
 <p align="center">  
   <버전 관리란? (출처: hanbit.co.kr)>
-</p>
+</p>  
+3. 협업 프로젝트에서는 버전 관리가 특히 중요! 
+4. 버전 관리란?
+	- 변경 사항 관리  변경 사항 기록/추적 
+	- 동시 파일 개발  다른 버전 파일 결합
+	- 특전 버전 식별
+	- 변경 사항 되돌리기 
 
 <br />
 <Br />
