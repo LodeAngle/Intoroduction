@@ -20,8 +20,6 @@
 <p align="center">
 	<img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" alt="kingdom" width="50%" height="50%"/>
 </p>
-  
-![](https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png")  
 <p align="center">  
   <버전 관리란? (출처: hanbit.co.kr)>
 </p>
