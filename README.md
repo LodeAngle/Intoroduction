@@ -16,7 +16,7 @@
   - 저장 위치(Where it is located)<br />
   - 파일 형식(The file type)<br />
   - 저장 시점(When it was last saved)<br /> 
-<p align="center" alt="버전관리 그림">
+<p align="center">
 <img src="https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png" width="70%" height="70%" alt="버전관리란?"> 
 <br />
 버전 관리란? (출처: hanbit.co.kr)
@@ -29,8 +29,10 @@
   - 특전 버전 식별<br />  
   - 변경 사항 되돌리기 <br />  
 
-
-
+<p align="center">
+<img src="https://blog.kakaocdn.net/dn/8Fh1Y/btqzjg2OQx6/2ge5VZ8AV3O8H7niW0YW8K/img.png" width="50" height="50" alt="카카톡 예시">
+<br />
+카카오톡 버전 히스토리 (출처:https://tip-blog.tistory.com)
 <br /> 
 <br />
 <Br />
