@@ -16,8 +16,10 @@
   - 저장 위치(Where it is located)<br />
   - 파일 형식(The file type)<br />
   - 저장 시점(When it was last saved)<br />
-<p align="center">  ![](https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png "버전 관리란? (출처: hanbit.co.kr)")  </p>
-<p align="center">  [버전 관리란? (출처: hanbit.co.kr)] </p>
+![](https://www.hanbit.co.kr/data/editor/20230512160223_whmadsed.png "버전 관리란? (출처: hanbit.co.kr)")  
+<p align="center">  
+  <버전 관리란? (출처: hanbit.co.kr)>
+</p>
 
 <br />
 <Br />
