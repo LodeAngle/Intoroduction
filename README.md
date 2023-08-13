@@ -82,7 +82,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 <br />  
 <br />  
 
-2. 용어 설명  <br />  
+2. 용어 설명(수정 전)  <br />  
 - Working Directory: 개발자의 현재 시점으로 소스코드를 수정하며 개발하는 공간을 의미 <br />  
 - Staging Area: Working Directory에서 작업한 파일을 Local Repository에 전달하기 위해 파일들을 분류하는 공간 <br />  
 - Local Repository: 로컬 저장소이며 작업한 파일들을 저장해두는 내부 저장소 (.git 폴더) <br />  
@@ -90,6 +90,15 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - Branch: Remote Repository의 현재 상태를 복사하여 master 브랜치와 별개의 작업을 진행할 수 있는 공간 (보통 브랜치를 생성하여 개발을 진행하고 개발을 완료하면 master 브랜치에 병합하여 개발 완료된 소스코드를 합침) <br />  
 - Head: 현재 작업중인 브랜치의 최근 커밋된 위치 <br />  
 - Index: Staging Area를 의미 <br />  
+
+# 3. 소스트리 시작하기
+## 3.1 소스트리 설치하기
+- 소스트리 설치 주소 [Link](https://www.sourcetreeapp.com)
+- Git은 코딩? Sourcetree 사용하면 GUI로 Git을 사용 가능
+    - 즉, 명령어 → 버튼/그래프/메뉴
+    - 소스트리는 명령어 없이 깃 사용가능하도록 개발 된 클라이언트 프로그램
+    -  다만, 깃의 고급 기능을 사용하기 위해서는 명령어 기반 학습이 필요 함
+    - 우리는 Sourcetree 사용!
 
 
 ## 2.1. clone 이란?
