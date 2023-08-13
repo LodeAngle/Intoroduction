@@ -58,7 +58,7 @@
   - 협업이 어려움<br />  
 
 <p align="center">
-<img src="https://i0.wp.com/leechoong.com/wp-content/uploads/2017/12/101-6.png?w=618" width="300" height="200" alt="버전관리 중요성 설명용">
+<img src="https://i0.wp.com/leechoong.com/wp-content/uploads/2017/12/101-6.png?w=618" width="300" height="150" alt="버전관리 중요성 설명용">
 <br />
 버전 관리의 중요성 (출처:http://leechoong.com/posts/2017/git_vcs/)
 <br /> 
@@ -67,7 +67,8 @@
 
 # 2. Git 시작하기 
 ## 2.1 Git 설치하기
-[URL](https://git-scm.com)
+- Git 설치 주소[Link](https://git-scm.com) </br>
+- 설치방법 참고자료 Download "나중에 OneDrive에 업로드"
 
 
 
