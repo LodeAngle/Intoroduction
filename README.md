@@ -46,7 +46,7 @@
 3. Git은 GitHub가 아니지만 일반적으로 Git은 GitHub와 함께 사용 됨 <br />
 4. Git 호스팅 사이트: GitHub.com <br />
 <Br />
-<Br />  
+
 ## 1.3 Git의 장점   
 1. GitHub에 소스 코드를 올려 두면 시간, 공간의 제약 없이 협업할 수 있음   <br />  
   - 다른 사람 컴퓨터와 동기화 가능   <br />  
