@@ -1,13 +1,9 @@
 # Introduction to Git&GitHub 
-
 ***
-
 # 1. Git&GitHub 이용 목적
 - 버전 컨트롤
 - 과제 제출
 - 코드 리뷰
-  <br />
-  <br />
 
 ## 1.1 버전(version)이란?
 1. 원하는 시점(point in time)으로 이동 할 수 있게 해주는 것 → 버전<br />
@@ -91,8 +87,17 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - Head: 현재 작업중인 브랜치의 최근 커밋된 위치 <br />  
 - Index: Staging Area를 의미 <br />  
 
-# 3. 소스트리 시작하기
-## 3.1 소스트리 설치하기
+# 3. GitHub 시작하기
+## 3.1 GitHub 가입하기
+- GitHub 가입하기 [Link](https://goddaehee.tistory.com/218)
+- 학생인증 [Link](https://goddaehee.tistory.com/219)
+## 3.2 Git-GitHub 연동하기
+- GitHub는 원격에서 Git 저장소를 호스팅해주시는 서비스
+- 
+
+
+# 4. 소스트리 시작하기
+## 4.1 소스트리 설치하기
 - 소스트리 설치 주소 [Link](https://www.sourcetreeapp.com)
 - Git은 코딩? Sourcetree 사용하면 GUI로 Git을 사용 가능
     - 즉, 명령어 → 버튼/그래프/메뉴
@@ -300,9 +305,3 @@ pull request를 날리면, 해당 pr에서 작성된 코드 변경사항을 볼 
 # 8. 마치며.
 
 부족한 글이지만, git과 github가 어색할 여러분을 위해 공들여 쓴 글이니, 어려워도 열심히, 설명이 부족하다면 찾아가면서, 물어가면서 읽어주시면 감사하겠습니다.
-
----
-
----
-
-_**2021.09.27 김의진 씀.**_
