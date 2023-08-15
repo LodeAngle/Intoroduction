@@ -101,14 +101,14 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 <p align="center">
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg"  width="40%" height="40%" alt="새 원격 저장소 만들기">
 
-- Repository name : 저장소의 이름
-- Description : 해당 저장소의 설명글 작성(선택)
-- Public / Private : 공용/개인 저장소 선택. 우리는 Public 사용
-- Initialize this repository with : 저장소 생성 과정에서 자동으로 생성시킬 파일 선택
-- README : 저장소 내용을 소개하는 파일.
-- .gitignore : Git 저장소 작업 시 무시하고 싶은 특정 이름/파일 등
-- license : 저장소의 라이센스 파일을 추가
-- Create repository를 누르면 새 저장소 생김
+  - Repository name : 저장소의 이름
+  - Description : 해당 저장소의 설명글 작성(선택)
+  - Public / Private : 공용/개인 저장소 선택. 우리는 Public 사용
+  - Initialize this repository with : 저장소 생성 과정에서 자동으로 생성시킬 파일 선택
+  - README : 저장소 내용을 소개하는 파일.
+  - .gitignore : Git 저장소 작업 시 무시하고 싶은 특정 이름/파일 등
+  - license : 저장소의 라이센스 파일을 추가
+  - Create repository를 누르면 새 저장소 생김
   
 # 4. 깃 다루기 
 ---
