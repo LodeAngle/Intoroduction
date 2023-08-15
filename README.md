@@ -115,6 +115,13 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
     - "Initialized empty Git repository in <작업 디렉토리 경로>"라는 메시지가 뜨면 성공!
     - 작업 디렉토리에 .git 폴더가 생겼다면? 성공!
 
+## 4.2 git status: 작업 폴더 상태 확인하기
+- git status는 현재 작업 디렉터리의 상태를 알려준다.
+- 따라하기
+    - 작업 디렉토리에 a.txt 파일을 생성한다
+    - git bash에 git status를 입력하면, 아래와 같은 결과가 나온다.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/9a05606f-7b7b-4a48-9b23-7bbf90258a2c)
+
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
 
 ## 3.3 유명 Git
