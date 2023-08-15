@@ -135,7 +135,8 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 4.3 git status: 작업 폴더 상태 확인하기
 - git status는 현재 작업 디렉터리의 상태를 알려준다.
 - 따라하기!
-    - 작업 디렉토리에 a.txt 파일을 생성한다
+    - 작업 디렉토리에 a.txt 파일을 생성한다.
+    - a.txt를 열어 A입력 후 Enter(줄바꿈) 및 저장한다.
     - git bash에 git status를 입력하면, 아래와 같은 결과가 나온다. </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/9a05606f-7b7b-4a48-9b23-7bbf90258a2c)
         - On branch master: 현재 master 브랜치에 잇다는 의미
@@ -153,9 +154,26 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - 새로운 버전을 만드는 명령어는 git commit -m "커밋 메시지" 또는 git commit --message "커밋 메시지" 명령어를 입력한다.
     - 커밋 메시지는 메모, 주석 과 같은 것! 꼭 알아볼 수 있게 적어야 함!
 - 따라하기!
-    - git commit -m "First commit" 을 입력한다. 
-- 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
+    - git commit -m "First commit" 을 입력한다.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/a2b39fd5-1c94-4be7-a77c-6409673150f4)
+    - git log를 입력하면 해시, 만든사람, 커밋이 만들어진 날짜, 메시지가 출력 됨.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/0eab5fab-eab5-41e2-a4b1-636048a7dc22)
+    -  a.txt 파일을 열어 A 다음 줄에 B를 추가한다.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/58c203f2-63a2-43ae-beb9-82fe55f93402)
+    -  git status 로 상태를 확인하면 'modified: a.txt'라고 수정 된 파일이 나타 난다.
+    -  다시 새 버전을 만들기 위해 git commit -am "second commit" 을 입력한다.
+    -  git log를 입력해보면 두번째 커밋도 성공한 것을 확인할 수 있다.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/841420e1-2219-4dfb-9ba0-3165be445d21)
 
+- Tip! add와 comit을 합쳐서 git commit -am "커밋 메시지"로 사용할 수 있음.  
+- 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
+# 4.6 git log: 조회하기
+- git log --oneline: 요약 보기
+- git log -p: 변경사항 보기 
+- git log --graph: 커밋을 그래프 형태로 보기
+- git log --branches: 모든 브랜치의 커밋을 조회
+# 4.7 git tag <태그>: 태그 추가하기
+- 
 ## 3.3 유명 Git
 - **작성 중**
 
