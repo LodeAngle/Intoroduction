@@ -204,8 +204,21 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - [Link](https://subicura.com/git/guide/basic.html)
 - [Link](https://gorokke.tistory.com/22)
 
-# 5. 명령어로 깃허브 다루기
-## 3.3 유명 Git
+# 5. 명령어로 깃허브 다루기: 로컬 저장소-원격 저장소 상호 작용하기
+--- 
+- 용어정리
+    - 클론(clone): 원격 저장소를 복제하기
+    - 리모트(remote): 원격 저장소를 추가/조회/삭제하기
+    - 푸쉬(push): 원격 저장소에 밀어넣기
+    - 패치(fetch): 원격 저장소를 가져만 오기
+    - 풀(pull): 원격 저장소를 가져와서 합치기
+---
+## 5.1 git clone: 원격 저장소 복제하기
+- git clone <원격 저장소>
+- <원격 저장소> 확인하는 방법 <br/>
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/31b65749-5386-406d-9081-70fba3d8a84c)
+<br/>
+    - 
 - **작성 중**
 
 # 6. 과제 제출 방법
