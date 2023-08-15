@@ -96,7 +96,18 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - 나만의 프로필을 꾸미고 싶다면, 우측 상단 동그란 아이콘을 클릭하고 Settings-Profile 메뉴에 들어가 보세요.
 - README.md는 해당 프로젝트의 설치 방법, 사용 방법 등을 담고있습니다.
 - Issues로 오류 제보 또는 기능 제안을 할 수 있습니다. 
-
+## 3.4 저장소 만들기
+- 회원가입 후 Create repository를 누르면 아래와 같이 나타남.
+- ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg)
+    - Repository name : 저장소의 이름. 
+    - Description : 해당 저장소의 설명글 작성(선택)
+    - Public / Private : 공용/개인 저장소 선택. 우리는 Public 사용
+    - Initialize this repository with : 저장소 생성 과정에서 자동으로 생성시킬 파일 선택
+    - README : 저장소 내용을 소개하는 파일.
+    - .gitignore : Git 저장소 작업 시 무시하고 싶은 특정 이름/파일 등
+    - license : 저장소의 라이센스 파일을 추가
+- Create repository를 누르면 새 저장소 생김
+  
 # 4. 깃 다루기 
 ---
 명령어 모음
@@ -107,7 +118,10 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - git log: 커밋 조회하기
 - git tag: 태그 추가/조회/삭제하기
 ---
-## 4.1 git init: 로컬 저장소 만들기
+## 4.1 깃 순서
+<스테이지-커밋 등 설명 추가>
+
+## 4.2 git init: 로컬 저장소 만들기
 - 작업 디렉토리 생성 및 이동
     - 방법 1: 작업 디렉터리를 생성 후 해당 경로에서 마우스 오른쪽 버튼을 클릭한 후 Git Bash Here를 클릭하여 깃 배시를 연다.
     - 방법 2: 시작 메뉴에서 Git Bash를 실행한 뒤 cd <경로> 명령으로 원하는 경로로 이동한다.
@@ -116,16 +130,28 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
     - 작업 디렉토리에 .git 폴더가 생겼다면? 성공!  </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/ad232972-9830-400c-9492-0d2fd36b5d8c)
 
-## 4.2 git status: 작업 폴더 상태 확인하기
+## 4.3 git status: 작업 폴더 상태 확인하기
 - git status는 현재 작업 디렉터리의 상태를 알려준다.
-- 따라하기
+- 따라하기!
     - 작업 디렉토리에 a.txt 파일을 생성한다
-    - git bash에 git status를 입력하면, 아래와 같은 결과가 나온다.
+    - git bash에 git status를 입력하면, 아래와 같은 결과가 나온다. </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/9a05606f-7b7b-4a48-9b23-7bbf90258a2c)
         - On branch master: 현재 master 브랜치에 잇다는 의미
         - No commits Yet: 현재 커밋을 하지 않았음
         - Untracked files: 변경 사항을 추적하지 않은 대상. 즉, 여기에 a.txt가 표시된 것은 a.txt가 기존에 버전을 관리한 적 없는 새로운 파일이 생성 되었음을 의미함.
-- 
+# 4.4 git add: 스테이지에 올리기 
+- a.txt 파일을 스테이지에 추가해보자.
+    - git add <스테이지에 추가할 대상> → git add a.txt
+    - 다시 git status 명령어를 입력해본다. </br>
+    ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/88660fad-0193-4112-bd16-3d98c54a6651)
+    - Change to be committed: 항목에 a.txt가 추가 된 것을 확인할 수 있음.
+    - Tip! 스테이지에 올릴 대상이 여러개라면 git add . 명령어로 현재 디렉터리(작업 디렉터리)에 있는 모든 파일을 스테이지에 업로드 할 수 있음.
+ # 4.5 git commit: 커밋하기
+- 스테이지에 변경 사항을 추가했다면 마지막으로 커밋만 하면 됨!
+- 새로운 버전을 만드는 명령어는 git commit -m "커밋 메시지" 또는 git commit --message "커밋 메시지" 명령어를 입력한다.
+    - 커밋 메시지는 메모, 주석 과 같은 것! 꼭 알아볼 수 있게 적어야 함!
+- 따라하기!
+    - git commit -m "First commit" 을 입력한다. 
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
 
 ## 3.3 유명 Git
