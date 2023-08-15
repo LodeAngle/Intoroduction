@@ -108,8 +108,13 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - git tag: 태그 추가/조회/삭제하기
 ---
 ## 4.1 git init: 로컬 저장소 만들기
-- 
--  
+- 작업 디렉토리 생성 및 이동
+    - 방법 1: 작업 디렉터리를 생성 후 해당 경로에서 마우스 오른쪽 버튼을 클릭한 후 Git Bash Here를 클릭하여 깃 배시를 연다.
+    - 방법 2: 시작 메뉴에서 Git Bash를 실행한 뒤 cd <경로> 명령으로 원하는 경로로 이동한다.
+- git init를 입력한다.
+    - "Initialized empty Git repository in <작업 디렉토리 경로>"라는 메시지가 뜨면 성공!
+    - 작업 디렉토리에 .git 폴더가 생겼다면? 성공!
+
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
 
 ## 3.3 유명 Git
