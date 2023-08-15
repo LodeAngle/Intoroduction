@@ -87,12 +87,19 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 3.2 깃허브 가입하기
 - 깃허브 가입하기 [Link](https://goddaehee.tistory.com/218)
 - 학생인증 [Link](https://goddaehee.tistory.com/219)
+
+## 3.3 깃허브 살펴보기
 - 스타 개발자의 깃허브 탐방하기~!
-    - 깃의 창시자 리누스 토르발스 계정: https://github.com/torvalds
+    - 깃의 창시자 리누스 토르발스 계정은? https://github.com/torvalds
     - 이번에는 검색창에 'tensorflow'를 쳐보세요~
-- 프로필을 꾸미고 싶다면, 우측 상단 동그란 아이콘을 클릭하고 Settings-Profile 메뉴에 들어가 보세요.
- 
-  
+    - 깃허브에서 'Star'는 SNS에 '좋아요'와 같습니다.
+- 나만의 프로필을 꾸미고 싶다면, 우측 상단 동그란 아이콘을 클릭하고 Settings-Profile 메뉴에 들어가 보세요.
+- README.md는 해당 프로젝트의 설치 방법, 사용 방법 등을 담고있습니다.
+- Issues로 오류 제보 또는 기능 제안을 할 수 있습니다. 
+
+## 3.4 원격(romote) 저장소 만들기
+- 우측 상단의 +를 클릭한 뒤 'New repository' 클릭
+- 
 ## 3.3 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
 
