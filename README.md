@@ -99,7 +99,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 3.4 저장소 만들기
 - 회원가입 후 Create repository를 누르면 아래와 같이 나타남.
 <p align="center">
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg"  width="600" height="350" alt="새 원격 저장소 만들기">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg"  width="70%" height="70%" alt="새 원격 저장소 만들기">
 </br>
     - Repository name : 저장소의 이름. 
     - Description : 해당 저장소의 설명글 작성(선택)
@@ -154,11 +154,11 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - 새로운 버전을 만드는 명령어는 git commit -m "커밋 메시지" 또는 git commit --message "커밋 메시지" 명령어를 입력한다.
     - 커밋 메시지는 메모, 주석 과 같은 것! 꼭 알아볼 수 있게 적어야 함!
 - 따라하기!
-    - git commit -m "First commit" 을 입력한다.
+    - git commit -m "First commit" 을 입력한다. </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/a2b39fd5-1c94-4be7-a77c-6409673150f4)
-    - git log를 입력하면 해시, 만든사람, 커밋이 만들어진 날짜, 메시지가 출력 됨.
+    - git log를 입력하면 해시, 만든사람, 커밋이 만들어진 날짜, 메시지가 출력 됨. </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/0eab5fab-eab5-41e2-a4b1-636048a7dc22)
-    -  a.txt 파일을 열어 A 다음 줄에 B를 추가한다.
+    -  a.txt 파일을 열어 A 다음 줄에 B를 추가한다.</br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/58c203f2-63a2-43ae-beb9-82fe55f93402)
     -  git status 로 상태를 확인하면 'modified: a.txt'라고 수정 된 파일이 나타 난다.
     -  다시 새 버전을 만들기 위해 git commit -am "second commit" 을 입력한다.
