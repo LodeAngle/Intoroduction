@@ -110,7 +110,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
   - license : 저장소의 라이센스 파일을 추가
   - Create repository를 누르면 새 저장소 생김
   
-# 4. 깃 다루기 
+# 4. 명령어로 깃 다루기 
 ---
 명령어 모음
 - git init: 로컬 저장소 만들기
@@ -142,14 +142,14 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
         - On branch master: 현재 master 브랜치에 잇다는 의미
         - No commits Yet: 현재 커밋을 하지 않았음
         - Untracked files: 변경 사항을 추적하지 않은 대상. 즉, 여기에 a.txt가 표시된 것은 a.txt가 기존에 버전을 관리한 적 없는 새로운 파일이 생성 되었음을 의미함.
-# 4.4 git add: 스테이지에 올리기 
+## 4.4 git add: 스테이지에 올리기 
 - a.txt 파일을 스테이지에 추가해보자.
     - git add <스테이지에 추가할 대상> → git add a.txt
     - 다시 git status 명령어를 입력해본다. </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/88660fad-0193-4112-bd16-3d98c54a6651)
     - Change to be committed: 항목에 a.txt가 추가 된 것을 확인할 수 있음.
     - Tip! 스테이지에 올릴 대상이 여러개라면 git add . 명령어로 현재 디렉터리(작업 디렉터리)에 있는 모든 파일을 스테이지에 업로드 할 수 있음.
- # 4.5 git commit: 커밋하기
+## 4.5 git commit: 커밋하기
 - 스테이지에 변경 사항을 추가했다면 마지막으로 커밋만 하면 됨!
 - 새로운 버전을 만드는 명령어는 git commit -m "커밋 메시지" 또는 git commit --message "커밋 메시지" 명령어를 입력한다.
     - 커밋 메시지는 메모, 주석 과 같은 것! 꼭 알아볼 수 있게 적어야 함!
@@ -167,13 +167,29 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 
 - Tip! add와 comit을 합쳐서 git commit -am "커밋 메시지"로 사용할 수 있음.  
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
-# 4.6 git log: 조회하기
+## 4.6 git log: 조회하기
 - git log --oneline: 요약 보기
 - git log -p: 변경사항 보기 
 - git log --graph: 커밋을 그래프 형태로 보기
 - git log --branches: 모든 브랜치의 커밋을 조회
-# 4.7 git tag <태그>: 태그 추가하기
-- 
+## 4.7 git tag <태그>: 태그 추가하기
+- 두 번째 커밋에 v.1.0.0이라는 태그를 붙히려면?
+- git tag <태그>는 HEAD(현재 브런치의 최신 커밋)가 가리키는 커밋에 태그를 붙이는 명령어
+- git tag v1.0.0 → 커밋을 조회하면 태그가 붙은 것을 확인할 수 있다.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/fa70dccc-70af-4f04-9ad8-e77411ad651a)
+- 특정 커밋에 태그를 붙이고 싶다면 git tag <태그> <커밋>
+- <커밋>은 git log 또는 git log --oneline 명령어에 해서 태그로 확인 가능하다.
+- git tag v0.0.1 <첫 번째 커밋> 하면 첫 번째 커밋에도 태그가 추가 된 것을 확인 가능하다.
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/3881737a-098e-4b1f-ae3c-d3842edb6fb6)
+- git tag -l: 태그 조회하기
+- git tag -d <태그>: 태그 삭제하기
+
+## 4.8 기타 등등 참고자료
+- 더 이상의 자세한 설명은 생략...
+- [Link](https://subicura.com/git/guide/basic.html)
+- [Link](https://gorokke.tistory.com/22)
+
+# 5. 명령어로 깃허브 다루기
 ## 3.3 유명 Git
 - **작성 중**
 
