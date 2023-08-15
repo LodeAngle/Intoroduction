@@ -184,8 +184,12 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - git tag -l: 태그 조회하기
 - git tag -d <태그>: 태그 삭제하기
 
-## 4.8 기타 등등 참고자료
-- 더 이상의 자세한 설명은 생략...
+## 4.8 그 외 자주 쓰이는 명령어
+-
+
+- 더 이상의 자세한 설명은 생략... 스스로 공부하자...
+
+## 4.9 참고자료
 - [Link](https://subicura.com/git/guide/basic.html)
 - [Link](https://gorokke.tistory.com/22)
 
@@ -193,18 +197,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 3.3 유명 Git
 - **작성 중**
 
-
-# 4. 소스트리 시작하기
-## 4.1 소스트리 설치하기
-- 소스트리 설치 주소 [Link](https://www.sourcetreeapp.com)
-- Git은 코딩? Sourcetree 사용하면 GUI로 Git을 사용 가능
-    - 즉, 명령어 → 버튼/그래프/메뉴
-    - 소스트리는 명령어 없이 깃 사용가능하도록 개발 된 클라이언트 프로그램
-    - 다만, 깃의 고급 기능을 사용하기 위해서는 명령어 기반 학습이 필요 함
-    - 우리는 Sourcetree 사용!
-## 4.2 사용법(정리 중)
-
-# 5. 과제 제출 방법
+# 6. 과제 제출 방법
 > 과제는 기한까지 새 branch를 파서 Pull Request (PR)로 제출하는 것을 원칙으로 한다.
 > 과제 제출은
 1. 자신의 이름으로 된 repository를 clone 받기
