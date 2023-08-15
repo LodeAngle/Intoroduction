@@ -121,8 +121,8 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - git tag: 태그 추가/조회/삭제하기
 ---
 ## 4.1 깃 개념
-<스테이지-커밋-브랜치 등 개념 추가 >
-
+- 깃 동작 개념 [Link](https://wikidocs.net/149672)
+- 브랜치 개념 [Link](https://wikidocs.net/153114)
 
 ## 4.2 git init: 로컬 저장소 만들기
 - 작업 디렉토리 생성 및 이동
@@ -204,7 +204,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - [Link](https://subicura.com/git/guide/basic.html)
 - [Link](https://gorokke.tistory.com/22)
 
-# 5. 명령어로 깃허브 다루기: 로컬 저장소-원격 저장소 상호 작용하기
+# 5. 명령어로 깃허브 다루기
 --- 
 - 용어정리
     - 클론(clone): 원격 저장소를 복제하기
@@ -213,13 +213,49 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
     - 패치(fetch): 원격 저장소를 가져만 오기
     - 풀(pull): 원격 저장소를 가져와서 합치기
 ---
-## 5.1 git clone: 원격 저장소 복제하기
-- git clone <원격 저장소>
-- <원격 저장소> 확인하는 방법 <br/>
+## SSH 설정
+- ssh-keygen: SSH Key 생성하기
+    - 엔터만 눌러서 키를 생성!
+    - Created directory '주소'에 가면 id_rsa(비공개 키), id_rsa.pub(공개키)가 있음.
+- 깃허브 → Setting → SSH and GPG key → New SSH key [Link](https://github.com/settings/keys)
+- git에 cat ~/.ssh/id_rsa.pub 를 입력하면 복사해 올 SSH key가 나온다. 이것을 복사해서 New SSH key에 입력하자.
+
+## 5.1 git clone: 원격 저장소를 로컬 저장소로 복제하기
+- git clone <원격 저장소 인터넷 주소>
+- ls: 다운로드된 폴더 및 저장소와 연결 확인
+
+## 5.2 git remote: 로컬 저장소-원격 저장소 연결하기
+- git remote -v: 현재 연결 되어있는 원격 저장소 확인. 아직 연결하지 않았다면 아무것도 나타나지 않음
+- git remote add <name> <url>: 원격 저장소 추가
+    - <url> 확인하는 방법 <br/>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/31b65749-5386-406d-9081-70fba3d8a84c)
 <br/>
-    - 
-- **작성 중**
+- git remote remove <name>: 원격 저장소 연결 끊기
+- git remote rename <기존 원격 저장소 이름> <바꿀 원격 저장소 이름>
+
+## 5.3 git push: 원격 저장소에 밀어넣기
+- 따라하기!
+    - 로컬 저장소 'test-repo'를 만든 뒤 문자 A가 적힌 a.txt파일을 생성 및 저장
+        - 만들 줄 모르면 위에서부터 다시 정독...
+    - 추가 된 파일을 first commit 이라는 커밋 메시지로 커밋!
+        - 현재 상황은 '로컬 저장소 1커밋' '원격 저장소 0커밋'
+    - 명령어로 푸쉬 하는 방법! 그대로 따라하기!
+        - git remote add origin <주소>
+            - <주소>를 origin 이라는 이름으로 추가! 
+        - git branch -M main
+            - git brance -M <브랜치 이름>은 현재 브랜치 이름을 <브랜치 이름>으로 바꾸는 명령어! 기존 브랜치 이름(master)를 main으로 바꿈! 과제 제출시 브랜치 이름을 적합하게 바꾸어서 내시오!
+        - git push -u origin main
+            - git push <원격 저장소 이름> <브랜치 이름>은 원격 저장소 이름으로 브랜치 이름을 푸쉬 하는 명령어! -u는 처음 푸쉬할 때만 사용하면 됨.
+
+## 5.4 풀 리퀘스트 보내기!
+- 풀 리퀘스트(pull request)란? 협업하는 상대에게 자신이 작성한 결과물을 보내는 것!
+- 풀 리퀘스트 순서
+    - 기여하련느 계정으로 포크하기
+    - 포크한 저장소를 클론하기
+    - 브랜치 생성 후 생성한 브랜치에서 작업하기
+    - 작업한 브랜치 푸쉬하기
+    - 풀 리퀘스트 보내기
+    - 참고자료 [Link](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
 
 # 6. 과제 제출 방법
 > 과제는 기한까지 새 branch를 파서 Pull Request (PR)로 제출하는 것을 원칙으로 한다.
