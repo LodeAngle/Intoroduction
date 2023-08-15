@@ -98,7 +98,9 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - Issues로 오류 제보 또는 기능 제안을 할 수 있습니다. 
 ## 3.4 저장소 만들기
 - 회원가입 후 Create repository를 누르면 아래와 같이 나타남.
-- ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg)
+<p align="center">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg"  width="600" height="350" alt="새 원격 저장소 만들기">
+</br>
     - Repository name : 저장소의 이름. 
     - Description : 해당 저장소의 설명글 작성(선택)
     - Public / Private : 공용/개인 저장소 선택. 우리는 Public 사용
@@ -143,7 +145,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - a.txt 파일을 스테이지에 추가해보자.
     - git add <스테이지에 추가할 대상> → git add a.txt
     - 다시 git status 명령어를 입력해본다. </br>
-    ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/88660fad-0193-4112-bd16-3d98c54a6651)
+![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/88660fad-0193-4112-bd16-3d98c54a6651)
     - Change to be committed: 항목에 a.txt가 추가 된 것을 확인할 수 있음.
     - Tip! 스테이지에 올릴 대상이 여러개라면 git add . 명령어로 현재 디렉터리(작업 디렉터리)에 있는 모든 파일을 스테이지에 업로드 할 수 있음.
  # 4.5 git commit: 커밋하기
