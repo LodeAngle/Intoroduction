@@ -79,13 +79,22 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - Index: Staging Area를 의미
 
 # 3. GitHub 시작하기
-## 3.1 GitHub 가입하기
-- GitHub 가입하기 [Link](https://goddaehee.tistory.com/218)
-- 학생인증 [Link](https://goddaehee.tistory.com/219)
-## 3.2 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
+## 3.1 깃허브 호개 
+- 깃허브는? 개발자의 SNS
 - GitHub는 원격에서 Git 저장소를 호스팅해주시는 서비스
 - 로컬 컴퓨터에 있는 소스를 1) 백업 2) 협업 3) 공유하기 위해서는 github 사용이 필수
+  
+## 3.2 깃허브 가입하기
+- 깃허브 가입하기 [Link](https://goddaehee.tistory.com/218)
+- 학생인증 [Link](https://goddaehee.tistory.com/219)
+- 유명 깃허브 탐방하기~!
+    - 검색창에 'tensorflow'를 쳐보세요
+ 
+  
+## 3.3 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
+
+## 3.3 유명 Git
 - **작성 중**
 
 
