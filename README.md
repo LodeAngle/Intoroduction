@@ -87,8 +87,10 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 3.2 깃허브 가입하기
 - 깃허브 가입하기 [Link](https://goddaehee.tistory.com/218)
 - 학생인증 [Link](https://goddaehee.tistory.com/219)
-- 유명 깃허브 탐방하기~!
-    - 검색창에 'tensorflow'를 쳐보세요
+- 스타 개발자의 깃허브 탐방하기~!
+    - 깃의 창시자 리누스 토르발스 계정: https://github.com/torvalds
+    - 이번에는 검색창에 'tensorflow'를 쳐보세요~
+- 프로필을 꾸미고 싶다면, 우측 상단 동그란 아이콘을 클릭하고 Settings-Profile 메뉴에 들어가 보세요.
  
   
 ## 3.3 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
