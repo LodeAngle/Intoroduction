@@ -113,7 +113,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
     - 방법 2: 시작 메뉴에서 Git Bash를 실행한 뒤 cd <경로> 명령으로 원하는 경로로 이동한다.
 - git init를 입력한다.
     - "Initialized empty Git repository in <작업 디렉토리 경로>"라는 메시지가 뜨면 성공!
-    - 작업 디렉토리에 .git 폴더가 생겼다면? 성공!
+    - 작업 디렉토리에 .git 폴더가 생겼다면? 성공!  </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/ad232972-9830-400c-9492-0d2fd36b5d8c)
 
 ## 4.2 git status: 작업 폴더 상태 확인하기
