@@ -97,10 +97,19 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - README.md는 해당 프로젝트의 설치 방법, 사용 방법 등을 담고있습니다.
 - Issues로 오류 제보 또는 기능 제안을 할 수 있습니다. 
 
-## 3.4 원격(romote) 저장소 만들기
-- 우측 상단의 +를 클릭한 뒤 'New repository' 클릭
+# 4. 깃 다루기 
+---
+명령어 모음
+- git init: 로컬 저장소 만들기
+- git status: 작업 디렉터리 상태 확인하기
+- git add: 스테이지에 올리기
+- git commit: 커밋하기
+- git log: 커밋 조회하기
+- git tag: 태그 추가/조회/삭제하기
+---
+## 4.1 git init: 로컬 저장소 만들기
 - 
-## 3.3 Git 로컬 저장소와 GitHub 원격 저장소 연동하기
+-  
 - 저장소 만들기부터 Push하기까지 [Link](https://leeporter.tistory.com/41)
 
 ## 3.3 유명 Git
