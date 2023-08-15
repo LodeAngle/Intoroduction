@@ -100,7 +100,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 - 회원가입 후 Create repository를 누르면 아래와 같이 나타남.
 <p align="center">
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqwmAj%2FbtrsVKhfIHx%2F8kuvj9ZUEcWTbEcpApssr0%2Fimg.jpg"  width="40%" height="40%" alt="새 원격 저장소 만들기">
-</p>
+</>
     - Repository name : 저장소의 이름
     - Description : 해당 저장소의 설명글 작성(선택)
     - Public / Private : 공용/개인 저장소 선택. 우리는 Public 사용
