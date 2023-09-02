@@ -140,7 +140,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
     - a.txt를 열어 A입력 후 Enter(줄바꿈) 및 저장한다.
     - git bash에 git status를 입력하면, 아래와 같은 결과가 나온다. </br>
 ![image](https://github.com/LodeAngle/Intoroduction-to-Git-and-GitHub/assets/141135651/9a05606f-7b7b-4a48-9b23-7bbf90258a2c)
-        - On branch master: 현재 master 브랜치에 잇다는 의미
+        - On branch master: 현재 master 브랜치에 있다는 의미
         - No commits Yet: 현재 커밋을 하지 않았음
         - Untracked files: 변경 사항을 추적하지 않은 대상. 즉, 여기에 a.txt가 표시된 것은 a.txt가 기존에 버전을 관리한 적 없는 새로운 파일이 생성 되었음을 의미함.
 ## 4.4 git add: 스테이지에 올리기 
@@ -250,7 +250,7 @@ Git의 처리 구조 (출처:https://jforj.tistory.com/119)
 ## 5.4 풀 리퀘스트 보내기!
 - 풀 리퀘스트(pull request)란? 협업하는 상대에게 자신이 작성한 결과물을 보내는 것!
 - 풀 리퀘스트 순서
-    - 기여하련느 계정으로 포크하기
+    - 기여하려 계정으로 포크하기
     - 포크한 저장소를 클론하기
     - 브랜치 생성 후 생성한 브랜치에서 작업하기
     - 작업한 브랜치 푸쉬하기
